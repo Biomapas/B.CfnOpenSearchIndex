@@ -32,9 +32,11 @@ setup(
         'aws-cdk.aws_lambda>=1.90.0,<1.132.0',
         'aws-cdk.aws_opensearchservice>=1.90.0,<1.132.0',
         'b-aws-cf-response>=0.0.1,<1.0.0',
+        'b-aws-testing-framework>=0.6.0,<1.0.0',
         'b-cfn-lambda-layer>=1.1.3,<2.0.0',
         'opensearch-py>=1.0.0,<2.0.0',
         'requests-aws4auth>=1.1.1,<2.0.0',
+        'Faker>=10.0.0,<11.0.0'
     ],
     author='Gediminas Kazlauskas',
     author_email='gediminas.kazlauskas@biomapas.com',
