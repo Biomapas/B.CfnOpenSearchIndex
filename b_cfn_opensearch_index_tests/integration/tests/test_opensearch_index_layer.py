@@ -4,8 +4,10 @@ from b_aws_testing_framework.credentials import Credentials
 from botocore.response import StreamingBody
 
 from b_cfn_opensearch_index_tests.integration.infrastructure.main_stack import MainStack
+import pytest
 
 
+@pytest.mark.skip()
 def test_RESOURCE_lambda_layer_WITH_deployed_lambda_function_1_EXPECT_execution_successful():
     """
     Test the OpensearchIndexLayer validity and functionality.
