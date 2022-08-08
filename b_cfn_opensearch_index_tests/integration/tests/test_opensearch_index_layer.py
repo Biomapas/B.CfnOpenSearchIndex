@@ -1,10 +1,10 @@
 import json
 
+import pytest
 from b_aws_testing_framework.credentials import Credentials
 from botocore.response import StreamingBody
 
 from b_cfn_opensearch_index_tests.integration.infrastructure.main_stack import MainStack
-import pytest
 
 
 @pytest.mark.skip()
